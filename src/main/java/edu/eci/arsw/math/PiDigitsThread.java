@@ -35,6 +35,9 @@ public class PiDigitsThread extends Thread{
 
         }
     }
+    LinkedList<Byte> getListDigits(){
+        return listDigits;
+    }
     private static double sum(int m, int n) {
         double sum = 0;
         int d = m;
